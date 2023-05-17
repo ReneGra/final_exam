@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Navigation Bar Example</title>
+  <link rel="stylesheet" type="text/css" href="final.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.5.0/css/bootstrap.min.css">
+</head>
+<body>
+  <nav>
+    <div class="left-side">
+      <ul class="navbar">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">BASKETBALL</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </div>
+    <div class="right-side">
+      <div class="search-bar">
+        <input type="text" placeholder="Search...">
+        <button type="submit">Search</button>
+      </div>
+    </div>
+  </nav>
+  <div class="containera">
+    <div class="box">
+      <div class="ball"></div>
+    </div>
+  </div>
+  <div class="containert">
+    <div class="card card-1">
+      <img src="Luffy.jpg" alt="Character 1">
+      <h2>Card 1</h2>
+      <p class="name">Monkey D. Luffy</p>
+    </div>
+    <div class="card card-2">
+      <img src="Nico.jpg" alt="Character 2">
+      <h2>Card 2</h2>
+      <p class="name">Nico Robin</p>
+    </div>
+    <div class="card card-3">
+      <img src="Perona.jpg" alt="Character 3">
+      <h2>Card 3</h2>
+      <p class="name">Perona</p>
+    </div>
+  </div>
+
+
+
+<div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <h2>Card 1</h2>
+          <p>Description of Card 1</p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal1">
+            Open Modal
+          </button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <h2>Card 2</h2>
+          <p>Description of Card 2</p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal2">
+            Open Modal
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 1 -->
+  <div class="modal fade" id="myModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal 1 Title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Modal 1 Description
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="modal fade" id="myModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal 2 Title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Modal 2 Description
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add the Bootstrap JS and jQuery dependencies -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.5.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

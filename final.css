@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left-side {
+    flex-grow: 1;
+  }
+  
+  .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .navbar li a:hover {
+    background-color: green;
+    color: red;
+  }
+  
+  .right-side {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+  
+  .containera {
+    width: 50%;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+  }
+  
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 10px;
+  }
+  
+  .ball {
+    width: 50px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    animation: moveBall 1s linear infinite alternate;
+    margin: 20px;
+  }
+  
+  @keyframes moveBall {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(100% - 50px));
+    }
+  }
+  
+  @keyframes moveBall {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(100% - 50px));
+    }
+  }
+  
+  .containert {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    flex: 1 1 150px;
+    margin: 20px;
+    padding: 20px;
+    background-color: lightgray;
+    text-align: center;
+  }
+  
+  .card1 {
+    flex-basis: 100px;
+  }
+  
+  .card2 {
+    flex-basis: 150px;
+  }
+  
+  .card3 {
+    flex-basis: 200px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  h2 {
+    color: red;
+    font-size: 24px;
+  }
+  
+  .name {
+    color: lightred;
+    font-size: 18px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 10px;
+  }
+  
+  .product {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .product h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .product p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
